@@ -112,8 +112,8 @@ function App() {
           </h3>
         </div>
 
-        <div className="  items-center justify-center  md:flex md:gap-2 lg:flex lg:gap-5 xl:flex xl:gap-10 pb-5 md:pb-0">
-          <div className=" bg-[#ECDECF]    max-w-lg hover:scale-105 duration-100  flex-1 text-center p-5 rounded-xl my-10 mx-5 shadow-lg  shadow-slate-600 dark:shadow-slate-200">
+        <div className="  items-center justify-center  md:flex md:gap-2 lg:flex lg:gap-5 xl:flex xl:gap-10 pb-5 md:pb-0 ">
+          <div className=" bg-[#ECDECF]    max-w-lg hover:scale-105 duration-100  flex-1 text-center p-5 rounded-xl h-[75vh] my-10 mx-5 shadow-lg  shadow-slate-600 dark:shadow-slate-200">
             <img
               src={require("./assets/content.jpg")}
               className=" rounded-xl max-h-72 mx-auto "
@@ -122,13 +122,9 @@ function App() {
               Content Creation
             </h3>
             <p className="dark:text-gray-700  py-2 leading-8 text-gray-800">
-              I create{" "}
-              <span className=" text-pink-500 dark:text-pink-500">
-                Creative & Responsive
-              </span>{" "}
-              web apps and pages as you request.
+              I offer comprehensive social media management services to help your business build a strong online presence, increase engagement, and drive conversions. I will create and curate high-quality content, manage your social media accounts, and monitor performance to ensure you're getting the best results.
             </p>
-            <div className=" py-5  ">
+            {/* <div className=" py-5  ">
               <h4 className="dark:text-black text-m font-medium">Tech Stack</h4>
               <p className="dark:text-gray-700 italic  text-gray-800">
                 ReactJs
@@ -143,10 +139,10 @@ function App() {
               <p className="dark:text-gray-700 italic  text-gray-800">
                 MongoDB
               </p>
-            </div>
+            </div> */}
           </div>
 
-          <div className="bg-pink-200  max-w-lg hover:scale-105 duration-100   flex-1 text-center shadow-lg p-5  px-5  rounded-xl my-10 mx-5 shadow-slate-600 dark:shadow-slate-200">
+          <div className="bg-pink-200  max-w-lg hover:scale-105 duration-100   flex-1 text-center shadow-lg p-5  px-5 h-[75vh] rounded-xl my-10 mx-5 shadow-slate-600 dark:shadow-slate-200">
             <img
               src={require("./assets/socialMedia.jpg")}
               className=" rounded-xl max-h-72 mx-auto "
@@ -155,14 +151,9 @@ function App() {
               Social Media Management
             </h3>
             <p className="dark:text-gray-700 py-2 leading-8 text-gray-800">
-              I create{" "}
-              <span className=" text-pink-500 dark:text-pink-500">
-                Cross-Platform
-              </span>{" "}
-              mobile applications with responsive and cool designs. I also
-              publish your applications on AppStore and PlayStore.
+            I specialize in creating compelling and engaging content that resonates with your target audience. From blog posts and articles to videos and infographics, I will help you communicate your brand's message in a clear and effective way.
             </p>
-            <div className=" py-5  ">
+            {/* <div className=" py-5  ">
               <h4 className="dark:text-black text-m font-medium">Tech Stack</h4>
               <p className="dark:text-gray-700 italic  text-gray-800">
                 React Native
@@ -174,7 +165,7 @@ function App() {
               <p className="dark:text-gray-700  italic text-gray-800">
                 MongoDB
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
