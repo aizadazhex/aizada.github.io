@@ -14,8 +14,8 @@ function App() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <section id="home" className=" min-h-screen  ">
-        <div className=" dark:bg-gradient-to-r from-white to-[#E4D0BA] h-[10vh] ">
-          <nav className=" py-7  mb-12   text-center flex justify-between">
+        <div className=" dark:bg-gradient-to-r from-white to-[#E4D0BA] h-[10vh]  justify-center ">
+          <nav className=" h-[10vh] items-center align-middle   mb-12   text-center flex justify-between">
             <h1 className=" text-xl font-light text-black dark:text-black md:ml-24 ml-5">
               Aizada Zhexengaliyeva
             </h1>
@@ -23,7 +23,6 @@ function App() {
               <li>
                 <BsFillMoonStarsFill
                   color={darkMode ? "white" : "pink"}
-                  onClick={() => setDarkMode(!darkMode)}
                   className=" cursor-pointer text-2xl"
                 />
               </li>
@@ -89,14 +88,7 @@ function App() {
               Marketing Specialist | Social Media Manager | Content Creator
             </h3>
             <p className=" dark:text-gray-600 py-2 leading-8 text-gray-600 max-w-xl mx-auto px-2 ">
-              I am self-motivated, curious, observant, and a natural
-              action-taker! I define new or improve existing strategies for
-              better results and overall efficiency. I am a fast learner with an
-              insatiable appetite for knowledge. What I learn, I share. I get
-              results by driving deadlines and motivating others. My energy,
-              organization, and motivation are infectious and inspirational. I
-              enjoy working cross-functionally and helping the whole team
-              succeed. I know no obstacles and my ambitions are limitless.
+            Passionate Digital Marketing Specialist with over two years of experience. With an Associate's degree in Business Marketing, Certification in Digital Marketing, and experience working on diverse projects, I have developed strong skills in Content Creation, Social Media Management, and Marketing Strategy. I am an ambitious, creative, communicative, and energetic individual who is passionate about Marketing and adores social media and all the opportunities it provides. I am eager to utilize my skills and experience to help your business grow and build a strong, lasting relationship with its customers by developing effective social media strategies, creating compelling content, and analyzing data to optimize marketing performance.
             </p>
           </div>
         </div>
@@ -104,7 +96,7 @@ function App() {
 
       <section
         id="aboutMe"
-        className=" min-h-screen bg-gradient-to-r from-white to-[#E4D0BA]"
+        className="  bg-gradient-to-r from-white to-[#E4D0BA] h-auto pb-5 "
       >
         <div className=" text-center">
           <h3 className="text-gray-600 text-3xl  pt-10  font-semibold ">
@@ -112,8 +104,8 @@ function App() {
           </h3>
         </div>
 
-        <div className="  items-center justify-center  md:flex md:gap-2 lg:flex lg:gap-5 xl:flex xl:gap-10 pb-5 md:pb-0 ">
-          <div className=" bg-[#ECDECF]    max-w-lg hover:scale-105 duration-100  flex-1 text-center p-5 rounded-xl h-[75vh] my-10 mx-5 shadow-lg  shadow-slate-600 dark:shadow-slate-200">
+        <div className="   justify-center  md:flex md:gap-2 lg:flex lg:gap-5 xl:flex xl:gap-10 pb-5 md:pb-0  ">
+          <div className=" bg-[#ECDECF] h-100   max-w-lg hover:scale-105 duration-100  flex-1 text-center p-5 rounded-xl  my-10 mx-5 shadow-lg  shadow-slate-600 dark:shadow-slate-200">
             <img
               src={require("./assets/content.jpg")}
               className=" rounded-xl max-h-72 mx-auto "
@@ -122,8 +114,7 @@ function App() {
               Content Creation
             </h3>
             <p className="dark:text-gray-700  py-2 leading-8 text-gray-800">
-              I offer comprehensive social media management services to help your business build a strong online presence, increase engagement, and drive conversions. I will create and curate high-quality content, manage your social media accounts, and monitor performance to ensure you're getting the best results.
-            </p>
+            I specialize in creating high-quality written and visual content such as photos, videos, texts, scripts, and ads that is tailored to your business’ needs. You will be able to use this content on your social media platforms to build a strong online presence.            </p>
             {/* <div className=" py-5  ">
               <h4 className="dark:text-black text-m font-medium">Tech Stack</h4>
               <p className="dark:text-gray-700 italic  text-gray-800">
@@ -142,7 +133,7 @@ function App() {
             </div> */}
           </div>
 
-          <div className="bg-pink-200  max-w-lg hover:scale-105 duration-100   flex-1 text-center shadow-lg p-5  px-5 h-[75vh] rounded-xl my-10 mx-5 shadow-slate-600 dark:shadow-slate-200">
+          <div className="bg-pink-200 h-100   max-w-lg hover:scale-105 duration-100   flex-1 text-center shadow-lg p-5  px-5  rounded-xl my-10 mx-5 shadow-slate-600 dark:shadow-slate-200">
             <img
               src={require("./assets/socialMedia.jpg")}
               className=" rounded-xl max-h-72 mx-auto "
@@ -151,7 +142,7 @@ function App() {
               Social Media Management
             </h3>
             <p className="dark:text-gray-700 py-2 leading-8 text-gray-800">
-            I specialize in creating compelling and engaging content that resonates with your target audience. From blog posts and articles to videos and infographics, I will help you communicate your brand's message in a clear and effective way.
+            I specialize in creating a visual plan with theme and colors for your social media platforms, scheduling posts, arranging highlights, bio, and contact and referring buttons. I will help you communicate your brand’s message in a clear and effective way.
             </p>
             {/* <div className=" py-5  ">
               <h4 className="dark:text-black text-m font-medium">Tech Stack</h4>
