@@ -173,13 +173,13 @@ function App() {
 
           <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0  mb-0 h-[45vh] ">
           
-          <p className=" w-[90%] font-serif text-2xl  md:text-2xl lg:text-2xl    dark:text-black font-medium md:text-start text-start  ">
+          <p className=" w-[85%] font-serif text-2xl  md:text-2xl lg:text-2xl    dark:text-black font-medium md:text-start text-start  ">
           San Jose City College
           </p>
-          <p className=" w-[90%] font-serif text-l font-bold text-gray-500  mb-2 md:text-l lg:text-l    md:text-start text-start  ">
+          <p className=" w-[85%] font-serif text-l font-bold text-gray-500  mb-2 md:text-l lg:text-l    md:text-start text-start  ">
           Student Ambassador 
           </p>
-          <ul className=" w-[90%]  list-disc text-gray-600 ">
+          <ul className=" w-[85%]  list-disc text-gray-600 ">
             <li>
               <p className=" font-serif ">
               Managed multiple social media accounts; filmed, edited, and posted content.
@@ -216,22 +216,17 @@ function App() {
           </div>
 
           <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0  h-[45vh] ">
-          <p className=" w-[90%] font-serif text-2xl  md:text-2xl lg:text-2xl    dark:text-black font-medium md:text-start text-start  ">
+          <p className=" w-[85%] font-serif text-2xl  md:text-2xl lg:text-2xl    dark:text-black font-medium md:text-start text-start  ">
           Airo
           </p>
-          <p className=" w-[90%] font-serif text-l font-bold text-gray-500  mb-2 md:text-l lg:text-l    md:text-start text-start  ">
+          <p className=" w-[85%] font-serif text-l font-bold text-gray-500  mb-2 md:text-l lg:text-l    md:text-start text-start  ">
           Founder & Marketing Specialist
           </p>
 
-          <ul className=" w-[90%]  list-disc text-gray-600  ">
+          <ul className=" w-[85%]  list-disc text-gray-600  ">
             <li>
               <p className=" font-serif  ">
               Launched and growing a small business selling brand clothing and accessories from the US in Kazakhstan, generating revenue through online sales and partnerships with local boutiques.
-              </p>
-            </li>
-            <li>
-              <p className=" font-serif ">
-              Increased Instagram followers by 20% over 3 months period.
               </p>
             </li>
             <li>
@@ -259,17 +254,17 @@ function App() {
           </div>
 
           <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0 h-[45vh]  ">
-          <p className=" w-[90%] font-serif text-2xl  md:text-2xl lg:text-2xl    dark:text-black font-medium md:text-start text-start  ">
+          <p className=" w-[85%] font-serif text-2xl  md:text-2xl lg:text-2xl    dark:text-black font-medium md:text-start text-start  ">
           Z48
           </p>
-          <p className=" w-[90%] font-serif text-l font-bold text-gray-500  mb-2 md:text-l lg:text-l    md:text-start text-start  ">
-          Digital Marketing Manager
+          <p className=" w-[85%] font-serif text-l font-bold text-gray-500  mb-2 md:text-l lg:text-l    md:text-start text-start  ">
+          Freelance Content Creator
           </p>
 
-          <ul className=" w-[90%]  list-disc text-gray-600 ">
+          <ul className=" w-[85%]  list-disc text-gray-600 ">
             <li>
               <p className=" font-serif ">
-              Created and posted content on social media platforms.
+              Created content for social media platforms.
               </p>
             </li>
             <li>
@@ -279,7 +274,7 @@ function App() {
             </li>
             <li>
               <p className=" font-serif ">
-              Increased Instagram following by 30%
+              Helped the marketing specialist increase Instagram following and engagement by 30%. 
               </p>
             </li>
           </ul>
@@ -298,14 +293,14 @@ function App() {
           </div>
 
           <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0 h-[45vh]  ">
-          <p className=" w-[90%] font-serif text-2xl  md:text-2xl lg:text-2xl    dark:text-black font-medium md:text-start text-start  ">
+          <p className=" w-[85%] font-serif text-2xl  md:text-2xl lg:text-2xl    dark:text-black font-medium md:text-start text-start  ">
           Marmelad Bar
           </p>
-          <p className=" w-[90%] font-serif text-l font-bold text-gray-500  mb-2 md:text-l lg:text-l    md:text-start text-start  ">
+          <p className=" w-[85%] font-serif text-l font-bold text-gray-500  mb-2 md:text-l lg:text-l    md:text-start text-start  ">
           Freelancer Content Creator
           </p>
 
-          <ul className=" w-[90%]  list-disc text-gray-600 ">
+          <ul className=" w-[85%]  list-disc text-gray-600 ">
             <li>
               <p className=" font-serif ">
               Created content for social media platforms and ads. 
@@ -326,14 +321,14 @@ function App() {
           </div>
 
           <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0 h-[45vh]  ">
-          <p className=" w-[90%] font-serif text-2xl  md:text-2xl lg:text-2xl    dark:text-black font-medium md:text-start text-start  ">
+          <p className=" w-[85%] font-serif text-2xl  md:text-2xl lg:text-2xl    dark:text-black font-medium md:text-start text-start  ">
           AECC Global
           </p>
-          <p className=" w-[90%] font-serif text-l font-bold text-gray-500  mb-2 md:text-l lg:text-l    md:text-start text-start  ">
+          <p className=" w-[85%] font-serif text-l font-bold text-gray-500  mb-2 md:text-l lg:text-l    md:text-start text-start  ">
           Content Creator
           </p>
 
-          <ul className=" w-[90%]  list-disc text-gray-600 ">
+          <ul className=" w-[85%]  list-disc text-gray-600 ">
             <li>
               <p className=" font-serif ">
               Create engaging and educational content for various digital channels.
@@ -346,7 +341,7 @@ function App() {
             </li>
             <li>
               <p className=" font-serif ">
-              Collaborate with Marketing team to develop effective strategies and ensure that the content is of a high   quality. 
+              Collaborate with Marketing team to develop effective strategies and ensure that the content is of high quality. 
               </p>
             </li>
           </ul>
