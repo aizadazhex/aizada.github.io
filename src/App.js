@@ -14,7 +14,7 @@ function App() {
   return (
     <div className={darkMode ? "dark" : ""}>
       <section id="home" className=" min-h-screen  ">
-        <div className=" dark:bg-gradient-to-r from-white to-[#E4D0BA] h-[10vh]  justify-center ">
+        <div className="bg-gradient-to-b md:bg-gradient-to-r from-white to-[#ECDECF] h-[10vh]  justify-center ">
           <nav className=" h-[10vh] items-center align-middle   mb-12   text-center flex justify-between">
             <h1 className=" text-xl font-light text-black dark:text-black md:ml-24 ml-5">
               Aizada Zhexengaliyeva
@@ -40,7 +40,7 @@ function App() {
         </div>
 
         <div className="   md:grid grid-cols-2 md:h-[90vh] md:pb-0 pb-10 ">
-          <div className=" flex flex-col items-center justify-center bg-[#ECDECF] py-12 md:py-0">
+          <div className=" flex flex-col items-center justify-center bg-[#ECDECF] py-12 md:py-0  ">
             <div className=" relative mb-5 ">
               <img
                 src={require("./assets/portrait.jpg")}
@@ -77,7 +77,7 @@ function App() {
               <span className="inline-flex h-20 pt-2 overflow-x-hidden  whitespace-nowrap text-brand-accent ">
                 <Typed
                   //className='md:text-4xl sm:text-3xl text-xl font-semibold px-2  text-white'
-                  strings={["Aizada"]}
+                  strings={["Aiza"]}
                   typeSpeed={120}
                   backSpeed={40}
                   cursorChar="|"
@@ -96,16 +96,21 @@ function App() {
 
       <section
         id="aboutMe"
-        className="  bg-gradient-to-r from-white to-[#E4D0BA] h-auto pb-5 "
+        className="   bg-[#ECDECF] h-auto  -mb-6 "
       >
-        <div className=" text-center">
-          <h3 className="text-gray-600 text-3xl  pt-10  font-semibold ">
-            Services
-          </h3>
+         <div className="   md:grid grid-cols-2 md:h-[10vh] md:pb-0 pb-0 ">
+          <div className=" flex flex-col items-center justify-center bg-[#ECDECF] py-12  md:py-0 pb-0  ">
+            <p className="font-serif text-4xl  md:text-4xl lg:text-5xl    dark:text-black font-medium border-b-2 border-black px-12 pb-4 absolute w-[80vw] left-[10vw]">Services</p>
+          </div>
+
+          <div className="hidden  md:flex  flex-col items-center justify-center bg-white py-12 md:py-0  ">
+          
+          </div>
         </div>
 
-        <div className="   justify-center  md:flex md:gap-2 lg:flex lg:gap-5 xl:flex xl:gap-10 pb-5 md:pb-0  ">
-          <div className=" bg-[#ECDECF] h-100   max-w-lg hover:scale-105 duration-100  flex-1 text-center p-5 rounded-xl  my-10 mx-5 shadow-lg  shadow-slate-600 dark:shadow-slate-200">
+         <div className="   md:grid grid-cols-2 md:h-[90vh] md:pb-0 pb-10 ">
+          <div className=" flex flex-col items-center justify-center bg-[#ECDECF] py-12 md:py-0  ">
+          <div className=" bg-white h-100   max-w-lg hover:scale-105 duration-100  flex-1 text-center p-5 rounded-xl  my-10 mx-5 shadow-lg  shadow-slate-600 dark:shadow-slate-200">
             <img
               src={require("./assets/content.jpg")}
               className=" rounded-xl max-h-72 mx-auto "
@@ -115,25 +120,11 @@ function App() {
             </h3>
             <p className="dark:text-gray-700  py-2 leading-8 text-gray-800">
             I specialize in creating high-quality written and visual content such as photos, videos, texts, scripts, and ads that is tailored to your business’ needs. You will be able to use this content on your social media platforms to build a strong online presence.            </p>
-            {/* <div className=" py-5  ">
-              <h4 className="dark:text-black text-m font-medium">Tech Stack</h4>
-              <p className="dark:text-gray-700 italic  text-gray-800">
-                ReactJs
-              </p>
-              <p className="dark:text-gray-700 italic  text-gray-800">NextJs</p>
-              <p className="dark:text-gray-700 italic  text-gray-800">
-                UI Frameworks
-              </p>
-              <p className="dark:text-gray-700 italic  text-gray-800">
-                Firebase
-              </p>
-              <p className="dark:text-gray-700 italic  text-gray-800">
-                MongoDB
-              </p>
-            </div> */}
+          </div>
           </div>
 
-          <div className="bg-pink-200 h-100   max-w-lg hover:scale-105 duration-100   flex-1 text-center shadow-lg p-5  px-5  rounded-xl my-10 mx-5 shadow-slate-600 dark:shadow-slate-200">
+          <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0  ">
+          <div className="bg-[#ECDECF] h-100   max-w-lg hover:scale-105 duration-100   flex-1 text-center shadow-lg p-5  px-5  rounded-xl my-10 mx-5 shadow-slate-600 dark:shadow-slate-200 ">
             <img
               src={require("./assets/socialMedia.jpg")}
               className=" rounded-xl max-h-72 mx-auto "
@@ -144,211 +135,224 @@ function App() {
             <p className="dark:text-gray-700 py-2 leading-8 text-gray-800">
             I specialize in creating a visual plan with theme and colors for your social media platforms, scheduling posts, arranging highlights, bio, and contact and referring buttons. I will help you communicate your brand’s message in a clear and effective way.
             </p>
-            {/* <div className=" py-5  ">
-              <h4 className="dark:text-black text-m font-medium">Tech Stack</h4>
-              <p className="dark:text-gray-700 italic  text-gray-800">
-                React Native
-              </p>
-              <p className="dark:text-gray-700 italic text-gray-800">Redux</p>
-              <p className="dark:text-gray-700 italic  text-gray-800">
-                Firebase
-              </p>
-              <p className="dark:text-gray-700  italic text-gray-800">
-                MongoDB
-              </p>
-            </div> */}
+          </div>
           </div>
         </div>
+       
+      </section>
+      <section
+        id="aboutMe"
+        className="   bg-[#ECDECF] h-auto  -mb-6  "
+      >
+        <div className="   md:grid grid-cols-2 md:h-[10vh] md:pb-0 pb-0  ">
+          <div className=" flex flex-col items-center justify-center bg-[#ECDECF] py-12  md:py-0 pb-0 md:pt-24  h-[30vh]">
+
+            <div className="md:grid grid-cols-2 absolute md:w-[80vw] w-[95vw] md:left-[10vw] md:mt-44 -mt-[45%] md:-mt-0  border-b-2 border-black md:pl-12 pl-0 md:pr-2 pr-0 md:pb-4 pb-0  justify-between ">
+              <p className="font-serif text-4xl  md:text-4xl lg:text-5xl    dark:text-black font-medium md:text-start text-center  ">Portfolio
+              </p>
+              <p className=" dark:text-gray-600 md:leading-8 text-gray-600 max-w-xl text-[13px]  md:text-end text-center w-auto md:mb-0 md:mt-0 mb-2 mt-4  ">
+                I have been working as a Marketing Specialist since 2021.<br/>Below are some of the projects that I have worked on.
+              </p>
+            </div>
+            
+
+          </div>
+
+          <div className="hidden  md:flex  flex-col items-center justify-center bg-white py-12 md:py-0  ">
+
+          </div>
+        </div>
+        </section>
+        <section
+          id="aboutMe"
+          className="   bg-[#ECDECF] h-[45vh]  mt-44 "
+          >
+         <div className="   md:grid grid-cols-2 md:pb-0 pb-10  ">
+          <div className=" flex flex-col items-center justify-center bg-[#ECDECF] py-12 md:py-0   ">
+          </div>
+
+          <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0  mb-0 h-[45vh] ">
+          
+          <p className=" w-[90%] font-serif text-2xl  md:text-2xl lg:text-2xl    dark:text-black font-medium md:text-start text-start  ">
+          San Jose City College
+          </p>
+          <p className=" w-[90%] font-serif text-l font-bold text-gray-500  mb-2 md:text-l lg:text-l    md:text-start text-start  ">
+          Student Ambassador 
+          </p>
+          <ul className=" w-[90%]  list-disc text-gray-600 ">
+            <li>
+              <p className=" font-serif ">
+              Managed multiple social media accounts; filmed, edited, and posted content.
+              </p>
+            </li>
+            <li>
+              <p className=" font-serif ">
+              Increased Instagram followers by 20% over 3 months period.
+              </p>
+            </li>
+            <li>
+              <p className=" font-serif ">
+              Reached 255k Instagram and 4k TikTok accounts over 3 months period.
+              </p>
+            </li>
+            <li>
+              <p className=" font-serif ">
+              Achieved a noticeable increase in Instagram Reels views up to 5 times over 3 months.
+              </p>
+            </li>
+          </ul>
+
+          </div>
+        </div>
+       
+      </section>
+      <section
+        id="aboutMe"
+        className="   bg-[#ECDECF]   h-[45vh]  "
+      >
+         <div className="   md:grid grid-cols-2 md:pb-0 pb-10 ">
+          <div className=" flex flex-col items-center justify-center bg-[#ECDECF] py-12 md:py-0  ">
+          
+          </div>
+
+          <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0  h-[45vh] ">
+          <p className=" w-[90%] font-serif text-2xl  md:text-2xl lg:text-2xl    dark:text-black font-medium md:text-start text-start  ">
+          Airo
+          </p>
+          <p className=" w-[90%] font-serif text-l font-bold text-gray-500  mb-2 md:text-l lg:text-l    md:text-start text-start  ">
+          Founder & Marketing Specialist
+          </p>
+
+          <ul className=" w-[90%]  list-disc text-gray-600  ">
+            <li>
+              <p className=" font-serif  ">
+              Launched and growing a small business selling brand clothing and accessories from the US in Kazakhstan, generating revenue through online sales and partnerships with local boutiques.
+              </p>
+            </li>
+            <li>
+              <p className=" font-serif ">
+              Increased Instagram followers by 20% over 3 months period.
+              </p>
+            </li>
+            <li>
+              <p className=" font-serif ">
+              Developed a comprehensive marketing strategy, utilizing social media and content marketing to increase brand awareness and drive sales.
+              </p>
+            </li>
+            <li>
+              <p className=" font-serif">
+              Manage sales, customer service, inventory management, and financial tracking and reporting.
+              </p>
+            </li>
+          </ul>
+          </div>
+        </div>
+       
+      </section>
+      <section
+        id="aboutMe"
+        className="   bg-[#ECDECF] h-[45vh]   -mb-6 "
+      >
+         <div className="   md:grid grid-cols-2 md:pb-0 pb-10 ">
+          <div className=" flex flex-col items-center justify-center bg-[#ECDECF] py-12 md:py-0  ">
+          
+          </div>
+
+          <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0 h-[45vh]  ">
+          <p className=" w-[90%] font-serif text-2xl  md:text-2xl lg:text-2xl    dark:text-black font-medium md:text-start text-start  ">
+          Z48
+          </p>
+          <p className=" w-[90%] font-serif text-l font-bold text-gray-500  mb-2 md:text-l lg:text-l    md:text-start text-start  ">
+          Digital Marketing Manager
+          </p>
+
+          <ul className=" w-[90%]  list-disc text-gray-600 ">
+            <li>
+              <p className=" font-serif ">
+              Created and posted content on social media platforms.
+              </p>
+            </li>
+            <li>
+              <p className=" font-serif ">
+              Collaborated with models and businesses to increase cafe awareness and drive sales.
+              </p>
+            </li>
+            <li>
+              <p className=" font-serif ">
+              Increased Instagram following by 30%
+              </p>
+            </li>
+          </ul>
+          </div>
+        </div>
+       
       </section>
 
-      <section id="portfolio">
-        <div className=" px-5 text-center">
-          <h3 className="dark:text-white text-3xl py-2 font-semibold">
-            Portfolio
-          </h3>
-          <p className="dark:text-gray-300 py-2 leading-8 text-gray-800">
-            I have been working as a freelance developer since 2017 which gave
-            me a chance to create an impressive portfolio. You can see my{" "}
-            <span className="dark:text-teal-200 text-teal-500">Web Apps</span>,{" "}
-            <span className="dark:text-teal-200 text-teal-500">
-              Mobile Applications
-            </span>{" "}
-            and <span className="dark:text-teal-200 text-teal-500">Games</span>{" "}
-            below.
+      <section
+        id="aboutMe"
+        className="   bg-[#ECDECF] h-[45vh]   -mb-6 "
+      >
+         <div className="   md:grid grid-cols-2  md:pb-0 pb-10 ">
+          <div className=" flex flex-col items-center justify-center bg-[#ECDECF] py-12 md:py-0  ">
+          
+          </div>
+
+          <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0 h-[45vh]  ">
+          <p className=" w-[90%] font-serif text-2xl  md:text-2xl lg:text-2xl    dark:text-black font-medium md:text-start text-start  ">
+          Marmelad Bar
           </p>
-        </div>
+          <p className=" w-[90%] font-serif text-l font-bold text-gray-500  mb-2 md:text-l lg:text-l    md:text-start text-start  ">
+          Freelancer Content Creator
+          </p>
 
-        <div className="flex flex-col gap-5 py-10 px-5 md:flex-row md:flex-wrap">
-          <div className=" hover:scale-105 duration-100 basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center">
-            <a
-              className="object-cover flex flex-1 "
-              target="_blank"
-              href="http://roalibiten.github.io/admin_dashboard"
-            >
-              <img
-                src={require("./assets/admin_dashboard.png")}
-                className=" mx-auto rounded-lg object-cover"
-              />
-            </a>
-            <h2 className="m-5 dark:text-gray-300  text-gray-800 font-bold ">
-              Admin Dashboard Web App
-            </h2>
-          </div>
-
-          <div className=" hover:scale-105 duration-100  basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center">
-            <a
-              className="object-cover flex flex-1 "
-              target="_blank"
-              href="http://rovlisoftware.com/"
-            >
-              <img
-                src={require("./assets/rovli.png")}
-                className=" mx-auto rounded-lg object-cover"
-              />
-            </a>
-            <h2 className="m-5 dark:text-gray-300  text-gray-800 font-bold ">
-              ROVLI Web Page
-            </h2>
-          </div>
-
-          <div className=" hover:scale-105 duration-100  basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center">
-            <a
-              className="object-cover flex flex-1 "
-              target="_blank"
-              href="https://roalibiten.github.io/movie_app_reactjs/"
-            >
-              <img
-                src={require("./assets/MovieApp.png")}
-                className=" mx-auto rounded-lg object-cover"
-              />
-            </a>
-            <h2 className="m-5 dark:text-gray-300  text-gray-800 font-bold ">
-              Movie Web App
-            </h2>
-          </div>
-          <div className=" hover:scale-105 duration-100  basis-1/3 flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center">
-            <a
-              className="object-cover flex flex-1 "
-              target="_blank"
-              href="https://www.oculus.com/experiences/quest/6193634367344819/"
-            >
-              <img
-                src={require("./assets/chatApp.png")}
-                className="mx-auto rounded-lg object-cover "
-              />
-            </a>
-            <h2 className="m-5 dark:text-gray-300  text-gray-800 font-bold ">
-              Customer Service Chat Web App
-            </h2>
-          </div>
-
-          <div className=" hover:scale-105 duration-100  basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl  flex flex-col text-center">
-            <a
-              className="object-cover flex flex-1 "
-              target="_blank"
-              href="https://play.google.com/store/apps/details?id=com.roalibiten.campuswide"
-            >
-              <img
-                src={require("./assets/CampusWide.png")}
-                className=" mx-auto rounded-lg object-cover"
-              />
-            </a>
-            <h2 className="m-5 dark:text-gray-300  text-gray-800 font-bold ">
-              Campus Wide Mobile App
-            </h2>
-          </div>
-
-          <div className=" hover:scale-105 duration-100  basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center">
-            <a
-              className="object-cover flex flex-1 "
-              target="_blank"
-              href="https://play.google.com/store/apps/details?id=com.ortadogu.mdclub"
-            >
-              <img
-                src={require("./assets/MDClub.png")}
-                className="  mx-auto rounded-lg object-cover "
-              />
-            </a>
-            <h2 className="m-5 dark:text-gray-300  text-gray-800 font-bold ">
-              MD Club Mobile App
-            </h2>
-          </div>
-          <div className=" hover:scale-105 duration-100  basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center">
-            <a
-              className="object-cover flex flex-1 "
-              target="_blank"
-              href="https://play.google.com/store/apps/details?id=com.roalibiten.FallinBall"
-            >
-              <img
-                src={require("./assets/FallingBall.png")}
-                className="mx-auto rounded-lg object-cover  "
-              />
-            </a>
-            <h2 className="m-5 dark:text-gray-300  text-gray-800 font-bold ">
-              Fall'in Ball Mobile Game
-            </h2>
-          </div>
-          <div className=" hover:scale-105 duration-100  basis-1/3 flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center">
-            <a
-              className="object-cover flex flex-1 "
-              target="_blank"
-              href="https://play.google.com/store/apps/details?id=com.roalibiten.BalanceBoard"
-            >
-              <img
-                src={require("./assets/BalanceBoard.png")}
-                className="mx-auto rounded-lg object-cover  "
-              />
-            </a>
-            <h2 className="m-5 dark:text-gray-300  text-gray-800 font-bold ">
-              Balance Board Mobile Game
-            </h2>
-          </div>
-          <div className=" hover:scale-105 duration-100  basis-1/3  flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center">
-            <a
-              className="object-cover flex flex-1 "
-              target="_blank"
-              href="https://play.google.com/store/apps/details?id=com.reflexboard"
-            >
-              <img
-                src={require("./assets/ReflexBoard.png")}
-                className="mx-auto rounded-lg object-cover  "
-              />
-            </a>
-            <h2 className="m-5 dark:text-gray-300  text-gray-800 font-bold ">
-              Reflex Board Mobile Game
-            </h2>
-          </div>
-          <div className=" hover:scale-105 duration-100  basis-1/3 flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center">
-            <a
-              className="object-cover flex flex-1 "
-              target="_blank"
-              href="https://play.google.com/store/apps/details?id=com.roalibiten.tetrex3d"
-            >
-              <img
-                src={require("./assets/Tetrex3D.png")}
-                className="mx-auto rounded-lg object-cover  "
-              />
-            </a>
-            <h2 className="m-5 dark:text-gray-300  text-gray-800 font-bold ">
-              Tetrex 3D Mobile Game
-            </h2>
-          </div>
-          <div className=" hover:scale-105 duration-100  basis-1/3 flex-1 lg:basis-1/4 shadow-lg  shadow-slate-600 rounded-xl flex flex-col text-center">
-            <a
-              className="object-cover flex flex-1 "
-              target="_blank"
-              href="https://www.oculus.com/experiences/quest/6193634367344819/"
-            >
-              <img
-                src={require("./assets/Tetrex3DVR.png")}
-                className="mx-auto rounded-lg object-cover "
-              />
-            </a>
-            <h2 className="m-5 dark:text-gray-300  text-gray-800 font-bold ">
-              Tetrex 3D VR Game
-            </h2>
+          <ul className=" w-[90%]  list-disc text-gray-600 ">
+            <li>
+              <p className=" font-serif ">
+              Created content for social media platforms and ads. 
+              </p>
+            </li>
+          </ul>
           </div>
         </div>
+       
+      </section>
+      <section
+        id="aboutMe"
+        className="   bg-[#ECDECF] h-[45vh]   -mb-6 "
+      >
+         <div className="   md:grid grid-cols-2  md:pb-0 pb-10 ">
+          <div className=" flex flex-col items-center justify-center bg-[#ECDECF] py-12 md:py-0  ">
+          
+          </div>
+
+          <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0 h-[45vh]  ">
+          <p className=" w-[90%] font-serif text-2xl  md:text-2xl lg:text-2xl    dark:text-black font-medium md:text-start text-start  ">
+          AECC Global
+          </p>
+          <p className=" w-[90%] font-serif text-l font-bold text-gray-500  mb-2 md:text-l lg:text-l    md:text-start text-start  ">
+          Content Creator
+          </p>
+
+          <ul className=" w-[90%]  list-disc text-gray-600 ">
+            <li>
+              <p className=" font-serif ">
+              Create engaging and educational content for various digital channels.
+              </p>
+            </li>
+            <li>
+              <p className=" font-serif ">
+              Edit and proofread content for accuracy, tone, style, and grammar.
+              </p>
+            </li>
+            <li>
+              <p className=" font-serif ">
+              Collaborate with Marketing team to develop effective strategies and ensure that the content is of a high   quality. 
+              </p>
+            </li>
+          </ul>
+          </div>
+        </div>
+       
       </section>
     </div>
   );
