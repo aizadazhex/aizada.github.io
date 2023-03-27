@@ -13,7 +13,7 @@ import { PlayCircleIcon } from '@heroicons/react/24/solid'
 
 function App() {
   const [darkMode, setDarkMode] = useState(true);
-
+  
   return (
     <div className={darkMode ? "dark" : ""}>
       <section id="home" className=" min-h-screen  ">
@@ -32,7 +32,7 @@ function App() {
               <li>
                 <a
                   target="_blank"
-                  href="https://drive.google.com/file/d/1E3FaDZO_w0pNYBA1_TABOD6dECOcXULm/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1P-TTwHWiRZkzZ4v9kWAxVtuVfK18XkQR/view?usp=share_link"
                   className="  bg-[white] text-[#D9BFA2] p-2 rounded-md ml-8 md:mr-0 mr-5"
                 >
                   Resume
@@ -434,6 +434,16 @@ function App() {
                   Created content for social media platforms and ads.
                 </p>
               </li>
+              <li>
+                <p className=" font-serif ">
+                Participated in professional photo and video shoots. 
+                </p>
+              </li>
+              <li>
+                <p className=" font-serif ">
+                Collaborated with the marketing specialist to generate creative ideas for content.
+                </p>
+              </li>
             </ul>
           </div>
         </div>
@@ -462,7 +472,7 @@ function App() {
             <div className=" bg-white  h-[18vw]   overflow-hidden  hover:scale-110 duration-100 rounded-md ">
             <PlayCircleIcon className="h-[4vw] w-[4vw] text-white absolute ml-[7vw] mt-[7vw]  "/>
             <video 
-              src="https://drive.google.com/uc?id=1ee4oUMd5p3SS1wVUmsMSWxlMcx0rgkjY" >
+              src="https://drive.google.com/uc?id=16WXmmdl870K1EvDcS3PkVWc1326Nv0wQ" >
             </video>
 
             </div>
@@ -490,7 +500,7 @@ function App() {
               </li>
               <li>
                 <p className=" font-serif ">
-                  Collaborate with Marketing team to develop effective
+                  Collaborate with the marketing team to develop effective
                   strategies and ensure that the content is of high quality.
                 </p>
               </li>
