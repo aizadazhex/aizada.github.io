@@ -1,11 +1,16 @@
 /** @type {import('tailwindcss').Config} */
+
 module.exports = {
   darkMode: "class",
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
+    fontFamily: {
+      display: ["Caveat", "cursive"],
+    },
     extend: {
+      
       animation: {
         cursor: 'cursor .6s linear infinite alternate',
         type: 'type 2.7s ease-out 0.8s   alternate both',

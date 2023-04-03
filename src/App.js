@@ -11,6 +11,7 @@ import Typed from "react-typed";
 import { PlayCircleIcon } from '@heroicons/react/24/solid'
 
 
+
 function App() {
   const [darkMode, setDarkMode] = useState(true);
   const [video, setVideo] = useState("");
@@ -25,7 +26,7 @@ function App() {
       <section id="home" className=" min-h-screen  ">
         <div className="bg-gradient-to-b md:bg-gradient-to-r from-white to-[#ECDECF] h-[10vh]  justify-center ">
           <nav className=" h-[10vh] items-center align-middle   mb-12   text-center flex justify-between">
-            <h1 className=" text-xl font-light text-black dark:text-black md:ml-24 ml-5">
+            <h1 className="  text-xl font-light text-black dark:text-black md:ml-24 ml-5 font-display text-[24px] md:text-[32px]">
               Aizada Zhexengaliyeva
             </h1>
             <ul className="flex items-center  justify-between md:px-32">
@@ -39,7 +40,7 @@ function App() {
                 <a
                   target="_blank"
                   href="https://drive.google.com/file/d/1P-TTwHWiRZkzZ4v9kWAxVtuVfK18XkQR/view?usp=share_link"
-                  className="  bg-[white] text-[#D9BFA2] p-2 rounded-md ml-8 md:mr-0 mr-5"
+                  className="  bg-[white] text-[#D9BFA2] p-2 rounded-md ml-8 md:mr-0 mr-5 "
                 >
                   Resume
                 </a>
@@ -80,7 +81,7 @@ function App() {
           </div>
 
           <div className=" text-center pt-10 flex flex-col justify-center bg-white ">
-            <h1 className="  font-serif text-4xl  md:text-4xl lg:text-5xl  text-black  dark:text-black font-medium ">
+            <h1 className="  font-display text-[48px]    text-black  dark:text-black font-medium">
               Hi, I'm{" "}
               <span className="inline-flex h-20 pt-2 overflow-x-hidden  whitespace-nowrap text-brand-accent ">
                 <Typed
@@ -131,7 +132,7 @@ function App() {
                 src={require("./assets/content.jpg")}
                 className=" rounded-xl max-h-72 mx-auto "
               />
-              <h3 className="dark:text-black text-lg font-medium pt-8 pb-2">
+              <h3 className="dark:text-black text-lg font-medium pt-8 pb-2 font-display text-[36px]">
                 Content Creation
               </h3>
               <p className="dark:text-gray-700  py-2 leading-8 text-gray-800">
@@ -144,12 +145,12 @@ function App() {
           </div>
 
           <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0  ">
-            <div className="bg-[#ECDECF] h-100   max-w-lg hover:scale-105 duration-100   flex-1 text-center shadow-lg p-5  px-5  rounded-xl my-10 mx-5 shadow-slate-600 dark:shadow-slate-200 ">
+            <div className="bg-[#ECDECF] h-100   max-w-lg hover:scale-105 duration-100   flex-1 text-center shadow-lg p-5  px-5  rounded-xl my-10 mx-5 shadow-slate-600 dark:shadow-slate-200 py-12 ">
               <img
                 src={require("./assets/socialMedia.jpg")}
                 className=" rounded-xl max-h-72 mx-auto "
               />
-              <h3 className="dark:text-black text-lg font-medium pt-8 pb-2">
+              <h3 className="dark:text-black text-lg font-medium pt-8 pb-2 font-display text-[36px]">
                 Social Media Management
               </h3>
               <p className="dark:text-gray-700 py-2 leading-8 text-gray-800">
@@ -216,7 +217,7 @@ function App() {
 
             
           <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0  mb-0  ">
-            <p className=" w-[85%] font-serif text-4xl  md:text-4xl lg:text-5xl    dark:text-black font-medium md:text-start text-start  mb-2">
+            <p className=" w-[85%] font-serif    dark:text-black font-medium md:text-start text-start  mb-2 font-display text-[42px] md:text-[58px] lg:text-[58px] ">
               San Jose City College
             </p>
             <p className=" w-[85%] font-serif text-3xl  md:text-3xl lg:text-4xl   text-gray-500   md:text-l lg:text-l    md:text-start text-start mb-12 ">
@@ -284,7 +285,7 @@ function App() {
           </div>
 
           <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0   ">
-            <p className=" w-[85%] font-serif text-4xl  md:text-4xl lg:text-5xl    dark:text-black font-medium md:text-start text-start  mb-2">
+          <p className=" w-[85%] font-serif    dark:text-black font-medium md:text-start text-start  mb-2 font-display text-[42px] md:text-[58px] lg:text-[58px] ">
               Airo
             </p>
             <p className=" w-[85%] font-serif text-3xl  md:text-3xl lg:text-4xl   text-gray-500   md:text-l lg:text-l    md:text-start text-start mb-12 ">
@@ -358,7 +359,7 @@ function App() {
           </div>
 
           <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0  ">
-          <p className=" w-[85%] font-serif text-4xl  md:text-4xl lg:text-5xl    dark:text-black font-medium md:text-start text-start  mb-2">
+          <p className=" w-[85%] font-serif    dark:text-black font-medium md:text-start text-start  mb-2 font-display text-[42px] md:text-[58px] lg:text-[58px] ">
               Z48
             </p>
             <p className=" w-[85%] font-serif text-3xl  md:text-3xl lg:text-4xl   text-gray-500   md:text-l lg:text-l    md:text-start text-start mb-12 ">
@@ -430,7 +431,7 @@ function App() {
             </div>
           </div>
           <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0  ">
-          <p className=" w-[85%] font-serif text-4xl  md:text-4xl lg:text-5xl    dark:text-black font-medium md:text-start text-start  mb-2">
+          <p className=" w-[85%] font-serif    dark:text-black font-medium md:text-start text-start  mb-2 font-display text-[42px] md:text-[58px] lg:text-[58px] ">
               Marmelad Bar
             </p>
             <p className=" w-[85%] font-serif text-3xl  md:text-3xl lg:text-4xl   text-gray-500   md:text-l lg:text-l    md:text-start text-start mb-12 ">
@@ -487,7 +488,7 @@ function App() {
             </div>
           </div>
           <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0  ">
-          <p className=" w-[85%] font-serif text-4xl  md:text-4xl lg:text-5xl    dark:text-black font-medium md:text-start text-start  mb-2">
+          <p className=" w-[85%] font-serif    dark:text-black font-medium md:text-start text-start  mb-2 font-display text-[42px] md:text-[58px] lg:text-[58px] ">
               AECC Global
             </p>
             <p className=" w-[85%] font-serif text-3xl  md:text-3xl lg:text-4xl   text-gray-500   md:text-l lg:text-l    md:text-start text-start mb-12 ">
