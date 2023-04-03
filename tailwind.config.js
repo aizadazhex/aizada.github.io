@@ -7,7 +7,10 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
-      display: ["Caveat", "cursive"],
+      caveat: ["Caveat", "cursive"],
+      poppins: ["Poppins", "sans-serif"],
+      montserrat: ["Montserrat", "sans-serif"],
+
     },
     extend: {
       

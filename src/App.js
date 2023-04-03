@@ -26,7 +26,7 @@ function App() {
       <section id="home" className=" min-h-screen  ">
         <div className="bg-gradient-to-b md:bg-gradient-to-r from-white to-[#ECDECF] h-[10vh]  justify-center ">
           <nav className=" h-[10vh] items-center align-middle   mb-12   text-center flex justify-between">
-            <h1 className="  text-xl font-light text-black dark:text-black md:ml-24 ml-5 font-display text-[24px] md:text-[32px]">
+            <h1 className="  text-xl font-light text-black dark:text-black md:ml-24 ml-5 font-caveat text-[24px] md:text-[32px]">
               Aizada Zhexengaliyeva
             </h1>
             <ul className="flex items-center  justify-between md:px-32">
@@ -39,7 +39,7 @@ function App() {
               <li>
                 <a
                   target="_blank"
-                  href="https://drive.google.com/file/d/1P-TTwHWiRZkzZ4v9kWAxVtuVfK18XkQR/view?usp=share_link"
+                  href="https://drive.google.com/file/d/1V78hwGIJPB81Y5r1hN9TZqQ_dz-5WVUD/view?usp=share_link"
                   className="  bg-[white] text-[#D9BFA2] p-2 rounded-md ml-8 md:mr-0 mr-5 "
                 >
                   Resume
@@ -81,7 +81,7 @@ function App() {
           </div>
 
           <div className=" text-center pt-10 flex flex-col justify-center bg-white ">
-            <h1 className="  font-display text-[48px]    text-black  dark:text-black font-medium">
+            <h1 className="  font-caveat text-[48px]    text-black  dark:text-black font-medium">
               Hi, I'm{" "}
               <span className="inline-flex h-20 pt-2 overflow-x-hidden  whitespace-nowrap text-brand-accent ">
                 <Typed
@@ -93,10 +93,10 @@ function App() {
                 />
               </span>
             </h1>
-            <h3 className=" dark:text-black text-2xl pb-5 md:py-2 text-black ">
+            <h3 className=" dark:text-black text-2xl pb-5 md:py-2 text-black  font-poppins ">
               Marketing Specialist | Social Media Manager | Content Creator
             </h3>
-            <p className=" dark:text-gray-600 py-2 leading-8 text-gray-600 max-w-xl mx-auto px-2 ">
+            <p className=" dark:text-gray-600 py-2 leading-8 text-gray-600 max-w-xl mx-auto px-2 font-poppins ">
               Passionate Digital Marketing Specialist with over two years of
               experience. With an Associate's degree in Business Marketing,
               Certification in Digital Marketing, and experience working on
@@ -114,10 +114,10 @@ function App() {
         </div>
       </section>
 
-      <section id="aboutMe" className="   bg-[#ECDECF] h-auto   ">
+      <section id="aboutMe" className="   bg-[#ECDECF] h-auto    ">
         <div className="   md:grid grid-cols-2 md:h-[10vh] md:pb-0 pb-0 ">
           <div className=" flex flex-col items-center justify-center bg-[#ECDECF] py-12  md:py-0 pb-0   ">
-            <p className="font-serif text-4xl  md:text-4xl lg:text-5xl    dark:text-black font-medium border-b-2 border-black px-12 pb-4 absolute w-[80vw] md:w-[30vw] left-[10vw] text-center">
+            <p className="font-montserrat  text-4xl  md:text-4xl lg:text-5xl    dark:text-black font-medium border-b-2 border-black px-12 pb-4 absolute w-[80vw] md:w-[30vw] left-[10vw] text-center">
               Services
             </p>
           </div>
@@ -132,10 +132,10 @@ function App() {
                 src={require("./assets/content.jpg")}
                 className=" rounded-xl max-h-72 mx-auto "
               />
-              <h3 className="dark:text-black text-lg font-medium pt-8 pb-2 font-display text-[36px]">
+              <h3 className="dark:text-black text-lg font-medium pt-8 pb-2 font-montserrat text-[32px]">
                 Content Creation
               </h3>
-              <p className="dark:text-gray-700  py-2 leading-8 text-gray-800">
+              <p className="dark:text-gray-900  py-2 leading-8 text-black font-poppins">
                 I specialize in creating high-quality written and visual content
                 such as photos, videos, texts, scripts, and ads that is tailored
                 to your business’ needs. You will be able to use this content on
@@ -150,10 +150,10 @@ function App() {
                 src={require("./assets/socialMedia.jpg")}
                 className=" rounded-xl max-h-72 mx-auto "
               />
-              <h3 className="dark:text-black text-lg font-medium pt-8 pb-2 font-display text-[36px]">
+              <h3 className="dark:text-black text-lg font-medium pt-8 pb-2 font-montserrat text-[32px]">
                 Social Media Management
               </h3>
-              <p className="dark:text-gray-700 py-2 leading-8 text-gray-800">
+              <p className="dark:text-gray-900 py-2 leading-8 text-black font-poppins">
                 I specialize in creating a visual plan with theme and colors for
                 your social media platforms, scheduling posts, arranging
                 highlights, bio, and contact and referring buttons. I will help
@@ -172,10 +172,10 @@ function App() {
             
           <div className="hidden  md:flex  flex-col items-center justify-center bg-white py-12 md:py-0  "></div>
           <div className="  items-center justify-center bg-[#ECDECF]  md:py-0  ">
-            <p className="font-serif text-4xl  md:text-4xl lg:text-5xl  ml-[10vw]  dark:text-black font-medium border-b-2 border-black px-12 pb-4  w-[80vw] md:w-[30vw] left-[10vw] text-center">
+            <p className="font-serif text-4xl  md:text-4xl lg:text-5xl  ml-[10vw]  dark:text-black font-medium border-b-2 border-black px-12 pb-4  w-[80vw] md:w-[30vw] left-[10vw] text-center font-montserrat">
               Portfolio
             </p>
-              <p className=" dark:text-gray-600 md:leading-8 text-gray-600 max-w-xl text-[13px]  mx-auto  text-center w-auto  md:mb-0 md:mt-0 mb-2 mt-2  ">
+              <p className="  dark:text-gray-900 md:leading-8 text-gray-900 max-w-xl text-[15px]  mx-auto  text-center w-auto  md:mb-0 md:mt-0 mb-2 mt-2  font-poppins ">
                 I have been working as a Marketing Specialist since 2021.
                 <br/>
                 Below are some of the projects that I have worked on.
@@ -217,34 +217,34 @@ function App() {
 
             
           <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0  mb-0  ">
-            <p className=" w-[85%] font-serif    dark:text-black font-medium md:text-start text-start  mb-2 font-display text-[42px] md:text-[58px] lg:text-[58px] ">
+            <p className=" w-[85%] font-serif    dark:text-black font-medium md:text-start text-start  mb-2 font-montserrat text-[36px]  md:text-[48px] lg:text-[48px]   ">
               San Jose City College
             </p>
             <p className=" w-[85%] font-serif text-3xl  md:text-3xl lg:text-4xl   text-gray-500   md:text-l lg:text-l    md:text-start text-start mb-12 ">
               Student Ambassador
             </p>
-            <ul className=" w-[85%]  list-disc text-gray-600  ">
+            <ul className=" w-[85%]  list-disc text-black  ">
               <li>
-              <p className=" font-serif text-xl  md:text-xl lg:text-xl mb-2">
+              <p className=" font-poppins  text-xl  md:text-xl lg:text-xl mb-2">
                   Managed multiple social media accounts; filmed, edited, and
                   posted content.
                 </p>
               </li>
               <li>
-              <p className=" font-serif text-xl  md:text-xl lg:text-xl mb-2">
-                  Increased Instagram followers by 20% over 3 months period.
+              <p className=" font-poppins text-xl  md:text-xl lg:text-xl mb-2">
+                  Increased Instagram followers by 20% over a 3 month period.
                 </p>
               </li>
               <li>
-              <p className=" font-serif text-xl  md:text-xl lg:text-xl mb-2">
-                  Reached 255k Instagram and 4k TikTok accounts over 3 months
+              <p className=" font-poppins text-xl  md:text-xl lg:text-xl mb-2">
+                  Reached 255k Instagram and 4k TikTok accounts over a 3 month
                   period.
                 </p>
               </li>
               <li>
-              <p className=" font-serif text-xl  md:text-xl lg:text-xl mb-2">
+              <p className=" font-poppins text-xl  md:text-xl lg:text-xl mb-2">
                   Achieved a noticeable increase in Instagram Reels views up to
-                  5 times over 3 months.
+                  5 times over a 3 month.
                 </p>
               </li>
             </ul>
@@ -285,30 +285,30 @@ function App() {
           </div>
 
           <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0   ">
-          <p className=" w-[85%] font-serif    dark:text-black font-medium md:text-start text-start  mb-2 font-display text-[42px] md:text-[58px] lg:text-[58px] ">
+          <p className=" w-[85%] font-serif    dark:text-black font-medium md:text-start text-start  mb-2 font-montserrat text-[36px]  md:text-[48px] lg:text-[48px]    ">
               Airo
             </p>
             <p className=" w-[85%] font-serif text-3xl  md:text-3xl lg:text-4xl   text-gray-500   md:text-l lg:text-l    md:text-start text-start mb-12 ">
               Founder & Marketing Specialist
             </p>
 
-            <ul className=" w-[85%]  list-disc text-gray-600  ">
+            <ul className=" w-[85%]  list-disc text-black  ">
               <li>
-              <p className=" font-serif text-xl  md:text-xl lg:text-xl mb-2">
+              <p className=" font-poppins text-xl  md:text-xl lg:text-xl mb-2">
                   Launched and growing a small business selling brand clothing
                   and accessories from the US in Kazakhstan, generating revenue
                   through online sales and partnerships with local boutiques.
                 </p>
               </li>
               <li>
-              <p className=" font-serif text-xl  md:text-xl lg:text-xl mb-2">
+              <p className=" font-poppins text-xl  md:text-xl lg:text-xl mb-2">
                   Developed a comprehensive marketing strategy, utilizing social
                   media and content marketing to increase brand awareness and
                   drive sales.
                 </p>
               </li>
               <li>
-              <p className=" font-serif text-xl  md:text-xl lg:text-xl mb-2">
+              <p className=" font-poppins text-xl  md:text-xl lg:text-xl mb-2">
                   Manage sales, customer service, inventory management, and
                   financial tracking and reporting.
                 </p>
@@ -359,27 +359,27 @@ function App() {
           </div>
 
           <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0  ">
-          <p className=" w-[85%] font-serif    dark:text-black font-medium md:text-start text-start  mb-2 font-display text-[42px] md:text-[58px] lg:text-[58px] ">
+          <p className=" w-[85%] font-serif    dark:text-black font-medium md:text-start text-start  mb-2 font-montserrat text-[36px] md:text-[48px] lg:text-[48px]  ">
               Z48
             </p>
             <p className=" w-[85%] font-serif text-3xl  md:text-3xl lg:text-4xl   text-gray-500   md:text-l lg:text-l    md:text-start text-start mb-12 ">
               Freelance Content Creator
             </p>
 
-            <ul className=" w-[85%]  list-disc text-gray-600 ">
+            <ul className=" w-[85%]  list-disc text-black ">
               <li>
-              <p className=" font-serif text-xl  md:text-xl lg:text-xl mb-2">
+              <p className=" font-poppins text-xl  md:text-xl lg:text-xl mb-2">
                   Created content for social media platforms.
                 </p>
               </li>
               <li>
-              <p className=" font-serif text-xl  md:text-xl lg:text-xl mb-2">
+              <p className=" font-poppins text-xl  md:text-xl lg:text-xl mb-2">
                   Collaborated with models and businesses to increase cafe
                   awareness and drive sales.
                 </p>
               </li>
               <li>
-              <p className=" font-serif text-xl  md:text-xl lg:text-xl mb-2">
+              <p className=" font-poppins text-xl  md:text-xl lg:text-xl mb-2">
                   Helped the marketing specialist increase Instagram following
                   and engagement by 30%.
                 </p>
@@ -431,26 +431,26 @@ function App() {
             </div>
           </div>
           <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0  ">
-          <p className=" w-[85%] font-serif    dark:text-black font-medium md:text-start text-start  mb-2 font-display text-[42px] md:text-[58px] lg:text-[58px] ">
+          <p className=" w-[85%] font-serif    dark:text-black font-medium md:text-start text-start  mb-2 font-montserrat text-[36px]  md:text-[48px] lg:text-[48px]   ">
               Marmelad Bar
             </p>
             <p className=" w-[85%] font-serif text-3xl  md:text-3xl lg:text-4xl   text-gray-500   md:text-l lg:text-l    md:text-start text-start mb-12 ">
               Freelancer Content Creator
             </p>
 
-            <ul className=" w-[85%]  list-disc text-gray-600 ">
+            <ul className=" w-[85%]  list-disc text-black ">
               <li>
-              <p className=" font-serif text-xl  md:text-xl lg:text-xl mb-2">
+              <p className=" font-poppins text-xl  md:text-xl lg:text-xl mb-2">
                   Created content for social media platforms and ads.
                 </p>
               </li>
               <li>
-              <p className=" font-serif text-xl  md:text-xl lg:text-xl mb-2">
+              <p className=" font-poppins text-xl  md:text-xl lg:text-xl mb-2">
                 Participated in professional photo and video shoots. 
                 </p>
               </li>
               <li>
-              <p className=" font-serif text-xl  md:text-xl lg:text-xl mb-2">
+              <p className=" font-poppins text-xl  md:text-xl lg:text-xl mb-2">
                 Collaborated with the marketing specialist to generate creative ideas for content.
                 </p>
               </li>
@@ -488,29 +488,29 @@ function App() {
             </div>
           </div>
           <div className=" flex flex-col items-center justify-center bg-white py-12 md:py-0  ">
-          <p className=" w-[85%] font-serif    dark:text-black font-medium md:text-start text-start  mb-2 font-display text-[42px] md:text-[58px] lg:text-[58px] ">
+          <p className=" w-[85%] font-serif    dark:text-black font-medium md:text-start text-start  mb-2 font-montserrat text-[36px] md:text-[48px] lg:text-[48px]  ">
               AECC Global
             </p>
             <p className=" w-[85%] font-serif text-3xl  md:text-3xl lg:text-4xl   text-gray-500   md:text-l lg:text-l    md:text-start text-start mb-12 ">
               Content Creator
             </p>
 
-            <ul className=" w-[85%]  list-disc text-gray-600 ">
+            <ul className=" w-[85%]  list-disc text-black ">
               <li>
-              <p className=" font-serif text-xl  md:text-xl lg:text-xl mb-2">
-                  Create engaging and educational content for various digital
+              <p className=" font-poppins text-xl  md:text-xl lg:text-xl mb-2">
+                  Created engaging and educational content for various digital
                   channels.
                 </p>
               </li>
               <li>
-              <p className=" font-serif text-xl  md:text-xl lg:text-xl mb-2">
-                  Edit and proofread content for accuracy, tone, style, and
+              <p className=" font-poppins text-xl  md:text-xl lg:text-xl mb-2">
+                  Edited and proofread content for accuracy, tone, style, and
                   grammar.
                 </p>
               </li>
               <li>
-              <p className=" font-serif text-xl  md:text-xl lg:text-xl mb-2">
-                  Collaborate with the marketing team to develop effective
+              <p className=" font-poppins text-xl  md:text-xl lg:text-xl mb-2">
+                  Collaborated with the marketing team to develop effective
                   strategies and ensure that the content is of high quality.
                 </p>
               </li>
