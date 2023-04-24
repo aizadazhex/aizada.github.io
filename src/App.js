@@ -189,26 +189,34 @@ function App() {
         <div className="   md:grid grid-cols-2 md:pb-0 pb-10 ">
           <div className="  items-center justify-center bg-[#ECDECF] py-12 md:py-12 grid grid-cols-2 gap-2  px-4 md:px-24 ">
             <div onClick={()=>{openVideo("https://drive.google.com/uc?id=1HYw1moftpStTvIhx_k0rv7Y5G6u2H6Fi")}} className="  bg-white h-[45vw] w-[45vw]  md:h-[18vw] md:w-auto   overflow-hidden  hover:scale-110 duration-100 rounded-md ">
-            <PlayCircleIcon className="h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
+            <PlayCircleIcon className=" invisible md:visible h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
             <video 
+          autoPlay
+          playsInline 
               src="https://drive.google.com/uc?id=1HYw1moftpStTvIhx_k0rv7Y5G6u2H6Fi" >
             </video>
             </div>
             <div onClick={()=>{openVideo("https://drive.google.com/uc?id=1iNOqJxUwwlMP8Na_3k5pBWOI2G_aeLAr")}} className="  bg-white h-[45vw] w-[45vw]  md:h-[18vw] md:w-auto   overflow-hidden  hover:scale-110 duration-100 rounded-md ">
-            <PlayCircleIcon className="h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
+            <PlayCircleIcon className="invisible md:visible h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
             <video 
+          autoPlay
+          playsInline 
               src="https://drive.google.com/uc?id=1iNOqJxUwwlMP8Na_3k5pBWOI2G_aeLAr" >
             </video>
             </div>
             <div onClick={()=>{openVideo("https://drive.google.com/uc?id=1AwwAXiR04C_gfD30PEhwsz2_ZPXfxEAG")}} className=" bg-white h-[45vw] w-[45vw]  md:h-[18vw] md:w-auto   overflow-hidden  hover:scale-110 duration-100 rounded-md ">
-            <PlayCircleIcon className="h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
+            <PlayCircleIcon className="invisible md:visible h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
             <video 
+          autoPlay
+          playsInline 
               src="https://drive.google.com/uc?id=1AwwAXiR04C_gfD30PEhwsz2_ZPXfxEAG" >
             </video>
             </div>
             <div onClick={()=>{openVideo("https://drive.google.com/uc?id=1ajmdjZxiQAHRnRlvDwjeaG-I4Xy_R46Z")}} className=" bg-white h-[45vw] w-[45vw]  md:h-[18vw] md:w-auto   overflow-hidden  hover:scale-110 duration-100 rounded-md ">
-            <PlayCircleIcon className="h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
+            <PlayCircleIcon className="invisible md:visible h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
             <video 
+          autoPlay
+          playsInline 
               src="https://drive.google.com/uc?id=1ajmdjZxiQAHRnRlvDwjeaG-I4Xy_R46Z" >
             </video>
             </div>
@@ -328,8 +336,10 @@ function App() {
         <div className="   md:grid grid-cols-2 md:pb-0 pb-10 ">
         <div className="  items-center justify-center bg-[#ECDECF] py-8 pt-0 md:py-12 grid grid-cols-2 gap-2  px-4 md:px-24 ">
         <div onClick={()=>{openVideo("https://drive.google.com/uc?id=1wppJsR64eqIBkoE_Z-LTJWrC9KvOeUVL")}} className=" bg-white h-[45vw] w-[45vw]  md:h-[18vw] md:w-auto   overflow-hidden  hover:scale-110 duration-100 rounded-md ">
-        <PlayCircleIcon className="h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
+        <PlayCircleIcon className="invisible md:visible h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
             <video 
+          autoPlay
+          playsInline 
               src="https://drive.google.com/uc?id=1wppJsR64eqIBkoE_Z-LTJWrC9KvOeUVL" >
             </video>
             </div>
@@ -342,8 +352,10 @@ function App() {
             />
             </div>
             <div onClick={()=>{openVideo("https://drive.google.com/uc?id=1FofFe2U0PvzWoh9QSvSVhBavjco7Qo_X")}} className=" bg-white h-[45vw] w-[45vw]  md:h-[18vw] md:w-auto   overflow-hidden  hover:scale-110 duration-100 rounded-md ">
-            <PlayCircleIcon  className="h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
+            <PlayCircleIcon  className="invisible md:visible h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
             <video 
+          autoPlay
+          playsInline 
               src="https://drive.google.com/uc?id=1FofFe2U0PvzWoh9QSvSVhBavjco7Qo_X" >
             </video>
             </div>
@@ -356,8 +368,10 @@ function App() {
             />
             </div>
             <div onClick={()=>{openVideo("https://drive.google.com/uc?id=1ke5OQaVsMZRaKnOG83r3eUrBCcjIEFuB")}} className=" bg-white h-[45vw] w-[45vw]  md:h-[18vw] md:w-auto   overflow-hidden  hover:scale-110 duration-100 rounded-md ">
-            <PlayCircleIcon className="h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
+            <PlayCircleIcon className="invisible md:visible h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
             <video 
+          autoPlay
+          playsInline 
               src="https://drive.google.com/uc?id=1nz2Awbw97FUMxd6ln2nT1Eq0MGA6iDIV"  >
             </video>
             </div>
@@ -431,8 +445,10 @@ function App() {
             
             </div>
             <div onClick={()=>{openVideo("https://drive.google.com/uc?id=1eMmoq8YMORYhZ_YrnH-YHQRZVUMnZRYV")}} className=" bg-white h-[45vw] w-[45vw]  md:h-[18vw] md:w-auto   overflow-hidden  hover:scale-110 duration-100 rounded-md ">
-            <PlayCircleIcon className="h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
+            <PlayCircleIcon className="invisible md:visible h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
             <video 
+          autoPlay
+          playsInline 
               src="https://drive.google.com/uc?id=1eMmoq8YMORYhZ_YrnH-YHQRZVUMnZRYV" >
             </video>
             </div>
@@ -485,26 +501,34 @@ function App() {
         <div className="   md:grid grid-cols-2  md:pb-0 pb-10 ">
         <div className="  items-center justify-center bg-[#ECDECF] py-8 pt-0 md:py-12 grid grid-cols-2 gap-2  px-4 md:px-24 ">
         <div onClick={()=>{openVideo("https://drive.google.com/uc?id=1jl8JYlBon4WMAWSYlGbuflEORaXS5oPO")}} className=" bg-white h-[45vw] w-[45vw]  md:h-[18vw] md:w-auto   overflow-hidden  hover:scale-110 duration-100 rounded-md ">
-        <PlayCircleIcon className="h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
+        <PlayCircleIcon className="invisible md:visible h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
             <video 
+          autoPlay
+          playsInline 
               src="https://drive.google.com/uc?id=1jl8JYlBon4WMAWSYlGbuflEORaXS5oPO" >
             </video>
             </div>
             <div onClick={()=>{openVideo("https://drive.google.com/uc?id=1c-XagbUVMW2gami7M2B8EGv-YrDnWRn9")}} className=" bg-white h-[45vw] w-[45vw]  md:h-[18vw] md:w-auto   overflow-hidden  hover:scale-110 duration-100 rounded-md ">
-            <PlayCircleIcon className="h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
+            <PlayCircleIcon className="invisible md:visible h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
             <video 
+          autoPlay
+          playsInline 
               src="https://drive.google.com/uc?id=1c-XagbUVMW2gami7M2B8EGv-YrDnWRn9" >
             </video>
             </div>
             <div onClick={()=>{openVideo("https://drive.google.com/uc?id=1sadOsSdX3mr5CU8vsHrt4zfUnatTyPMW")}} className=" bg-white h-[45vw] w-[45vw]  md:h-[18vw] md:w-auto   overflow-hidden  hover:scale-110 duration-100 rounded-md ">
-            <PlayCircleIcon className="h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
+            <PlayCircleIcon className="invisible md:visible h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
             <video 
+          autoPlay
+          playsInline 
               src="https://drive.google.com/uc?id=1sadOsSdX3mr5CU8vsHrt4zfUnatTyPMW" >
             </video>
             </div>
             <div onClick={()=>{openVideo("https://drive.google.com/uc?id=16WXmmdl870K1EvDcS3PkVWc1326Nv0wQ")}} className=" bg-white h-[45vw] w-[45vw]  md:h-[18vw] md:w-auto   overflow-hidden  hover:scale-110 duration-100 rounded-md ">
-            <PlayCircleIcon className="h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
+            <PlayCircleIcon className="invisible md:visible h-[12vw]  md:h-[4vw] md:w-[4vw] text-white absolute ml-[16vw] mt-[16vw] md:ml-[7vw] md:mt-[7vw]"/>
             <video 
+          autoPlay
+          playsInline 
               src="https://drive.google.com/uc?id=16WXmmdl870K1EvDcS3PkVWc1326Nv0wQ" >
             </video>
 
@@ -562,11 +586,14 @@ function App() {
            
           </div>
           {/*body*/}
-          <div onClick={()=>{}}  className="   relative  flex-auto  lg:h-[80vh] lg:w-[25vw] h-[90vh] ">
+          <div onClick={()=>{}}  className="   relative  flex-auto  lg:h-[80vh] lg:w-[25vw] h-[77vh] ">
           <video 
+          autoPlay
+          playsInline 
+          className="lg:h-[80vh] h-[70vh]"
           src={video}  controls  />
             <button
-              className="flex md:hidden text-red-500 text-lg ml-[38vw] mt-4 background-transparent font-bold uppercase px-6 h-[5vh]    "
+              className="flex md:hidden bg-white rounded-full pt-0 text-red-500 text-lg ml-[38vw] mt-4 background-transparent font-bold uppercase  h-[5vh]    "
               type="button"
               onClick={() =>{setVideo("")} }
             >
